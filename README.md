@@ -5,11 +5,11 @@ India-focused real-time air quality dashboard built with Streamlit using the WAQ
 ## Features
 
 - India-only city comparison (Delhi, Mumbai, Kolkata, Bengaluru, and more)
-- Live AQI, PM2.5, PM10, temperature, and humidity monitoring
+- Live AQI, PM1, PM2.5, PM10, temperature, humidity, pressure, wind, rain, and gas monitoring
 - Plotly visualizations:
 	- AQI severity bar chart
 	- PM2.5 vs temperature bubble chart
-- 8 key metric cards for quick insights
+- Summary cards for core air-quality and weather measurements
 - Cached API fetching with graceful error handling
 
 ## Project Files
@@ -17,7 +17,10 @@ India-focused real-time air quality dashboard built with Streamlit using the WAQ
 - `app.py`: Main Streamlit dashboard app
 - `requirements.txt`: Python dependencies
 - `.env.example`: Environment variable template
-- `sample.py`: Initial prototype file
+
+## Data Fields
+
+The dashboard currently surfaces AQI, PM1, PM2.5, PM10, temperature, humidity, pressure, wind speed, wind direction, rain, CO, NO2, O3, and SO2 when the WAQI station provides them.
 
 ## Setup
 
