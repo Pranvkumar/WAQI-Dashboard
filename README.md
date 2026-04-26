@@ -1,6 +1,7 @@
 # WAQI-Dashboard
 
 India-focused real-time air quality dashboard built with Streamlit using the WAQI API.
+
 Git-https://github.com/Pranvkumar/WAQI-Dashboard
 
 ## Features
